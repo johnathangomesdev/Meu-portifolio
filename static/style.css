@@ -60,6 +60,10 @@ html, body{
   border: 5px solid white;
 }
 
+#Main h1 {
+  cursor:default;
+}
+
 #Main .main-heading {
   font-size: 4rem;
   line-height: 3.5rem;
@@ -157,6 +161,12 @@ html, body{
   background: #247ba0;
 }
 
+#Portifolio {
+  padding-top: calc(6rem + 104px);
+  padding-bottom: 10rem;
+  background: #fff;
+}
+
 #Skills .page-section-heading {
   color:#fff;
 }
@@ -164,16 +174,25 @@ html, body{
 #Contact {
   padding-top: calc(6rem + 104px);
   padding-bottom: 10rem;
-  background: #247ba0;
+  background: #006494;
 }
 
 #Contact .page-section-heading {
   color:#fff;
 }
 
+#Contact .container-social-icons a {
+  display: block;
+  color:#fff;
+  margin: 2vh auto 2vh auto;
+  text-align: center;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
 i[class^="devicon"] {
     display: block;
-    color: white;
+    color: #fff;
     font-size: 5rem;
     margin: 2vh auto 2vh auto;
     text-align: center;
@@ -182,7 +201,13 @@ i[class^="devicon"] {
 i[class^="devicon"] span {
     display: block;
     margin-top: 0.5rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 600;
-    font-family: Raleway, sans-serif;
+    color: #fff;
+    font-family: Ubuntu, Arial;
+}
+
+i[class^="devicon"]:hover {
+    font-size: 4rem;
+    transition: 0.3s;
 }
